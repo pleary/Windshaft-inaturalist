@@ -62,9 +62,9 @@ var defaultStylePoints =
   "#observations {" +
   "marker-fill: #585858; " +
   "marker-opacity: 1;" +
-  "marker-width: 5;" +
+  "marker-width: 3;" +
   "marker-line-color: #D8D8D8;" +
-  "marker-line-width: 1.5;" +
+  "marker-line-width: 1;" +
   "marker-line-opacity: 0.9;" +
   "marker-placement: point;" +
   "marker-type: ellipse;" +
@@ -84,6 +84,13 @@ var defaultStylePoints =
   "[iconic_taxon_id=47178] { marker-fill: #1E90FF; } " +
   "[iconic_taxon_id=47686] { marker-fill: #8B008B; } " +
   "[iconic_taxon_id=48222] { marker-fill: #993300; } " +
+  "[zoom >= 12] { marker-width: 3.5; marker-line-width: 1.5; } " +
+  "[zoom >= 13] { marker-width: 4; marker-line-width: 1.5; } " +
+  "[zoom >= 16] { marker-width: 4.5; marker-line-width: 1.5; } " +
+  "[zoom >= 17] { marker-width: 5; marker-line-width: 1.5; } " +
+  "[zoom >= 18] { marker-width: 6; marker-line-width: 2; } " +
+  "[zoom >= 19] { marker-width: 8; marker-line-width: 2; } " +
+  "[zoom >= 20] { marker-width: 10; marker-line-width: 2.5; } " +
   "}";
 
 var defaultStyleGrid =
